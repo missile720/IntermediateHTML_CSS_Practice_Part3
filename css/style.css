@@ -1,0 +1,60 @@
+.nav{
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 10px;
+    border: 2px solid;
+}
+.row .green{
+    height: 70px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+    
+}
+
+.green{
+    background-color: green;
+    border: 2px solid;
+    width: 95%;
+    height: 100px;
+}
+
+.img{
+    background-image: url(https://www.sciencenewsforstudents.org/wp-content/uploads/2020/04/1030_LL_trees-1028x579.png);
+    background-repeat: no-repeat;
+    background-size: 100% 150px;
+    width: 30%;
+    height: 150px;
+}
+
+.red{
+    background-color: red;
+    border: 2px solid;
+    width: 30%;
+    height: 150px;
+}
+
+.orange{
+    background-color: orange;
+    border: 2px solid;
+    width: 30%;
+    height: 150px;
+}
+
+.blue{
+    background-color: blue;
+    border: 2px solid;
+    width: 30%;
+    height: 150px;
+}
